@@ -46,11 +46,11 @@ h1 {
   line-height: 1.0;
   letter-spacing: -0.03em;
   background: var(--headingGradient);
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+  display: inline-block;
+  width: 100%;
 }
 
 h2 {
@@ -94,6 +94,7 @@ HEADER
   z-index: 100;
   padding: 1.4rem 0;
 }
+
 
 .headerInner {
   display: flex;
@@ -298,8 +299,8 @@ CREATIONS
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+  display: inline-block;
+  width: 100%;
   margin-bottom: 0.8rem;
 }
 
@@ -583,6 +584,7 @@ CONTACT PAGE
   color: var(--text-primary);
   background: none;
   -webkit-text-fill-color: var(--text-primary);
+  display: block;
 }
 
 .contactHeadline span {
@@ -590,8 +592,7 @@ CONTACT PAGE
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+  display: inline-block;
 }
 
 .contactSub {
