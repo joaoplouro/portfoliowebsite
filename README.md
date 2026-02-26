@@ -18,12 +18,6 @@ A clean, minimal personal portfolio with a **liquid glass** UI aesthetic, built 
 - **Contact form** — Formspree integration with no-redirect fetch submission
 - **Sticky header** — floating glass pill navbar
 
-## Tech Stack
-
-- HTML5
-- CSS3 (custom properties, grid, flexbox)
-- JavaScript (vanilla)
-
 ## Live
 
 [**joaoplouro.vercel.app**](https://joaoplouro.vercel.app)
