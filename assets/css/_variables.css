@@ -1,0 +1,54 @@
+/*
+* VARIABLES
+*/
+
+:root {
+  /*  Base  */
+  --bg-base:        #080c12;
+  --bg-surface:     #0d1117;
+  --white:          #ffffff;
+  --black:          #000000;
+
+  /*  Accent  */
+  --accent:         #38bdf8;
+  --accent2:        #22d3ee;
+  --accent-dim:     rgba(56, 189, 248, 0.12);
+  --accent-glow:    rgba(56, 189, 248, 0.25);
+
+  /*  Text  */
+  --text-primary:   #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted:     #475569;
+
+  /*  Glass  */
+  --glass-bg:             rgba(255, 255, 255, 0.045);
+  --glass-bg-hover:       rgba(255, 255, 255, 0.07);
+  --glass-border:         rgba(255, 255, 255, 0.09);
+  --glass-border-bright:  rgba(255, 255, 255, 0.15);
+  --glass-shadow:         rgba(0, 0, 0, 0.4);
+
+  /*  Borders  */
+  --border:         rgba(255, 255, 255, 0.07);
+
+  /*  Gradients  */
+  --headingGradient: linear-gradient(135deg, #f1f5f9 0%, #93c5fd 50%, #38bdf8 100%);
+  --accentGradient:  linear-gradient(135deg, #38bdf8, #22d3ee);
+
+  /*  Type  */
+  --fontWeightLight:   300;
+  --fontWeightRegular: 400;
+  --fontWeightMedium:  500;
+  --fontWeightBold:    600;
+
+  /*  Aliases  */
+  --background:           var(--bg-base);
+  --backgroundProjectBox: var(--glass-bg);
+  --colorH1:              var(--text-primary);
+  --colorH2:              var(--text-primary);
+  --colorH3:              var(--text-secondary);
+  --colorP:               var(--text-secondary);
+  --colorPrimaryMenu:     var(--text-secondary);
+  --colorText:            var(--text-primary);
+  --colorAnchor:          var(--accent);
+  --colorBorder:          var(--glass-border-bright);
+}
